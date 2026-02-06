@@ -17,7 +17,7 @@ source:
     sha256: 91ceb3698a2ff04bfd5b4fd3eff77065af8b8e01051127653ef4c313b33ac90e
 
 build:
-  number: 0
+  number: 1
   script:
     - pushd {{ pkg_src }}
     - go build -v -o {{ target_gobin }}{{ x4_plugin }}{{ target_goexe }}
